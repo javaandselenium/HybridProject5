@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-27T08:29:40 IST" name="Default suite" finished-at="2021-04-27T08:30:03 IST" duration-ms="22993">
+    <groups>
+    </groups>
+    <test started-at="2021-04-27T08:29:40 IST" name="Default test" finished-at="2021-04-27T08:30:03 IST" duration-ms="22993">
+      <class name="com.Ecommerce.SkillRary.Signup.Scripts.InvaidData">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.Ecommerce.SkillRary.Signup.Scripts.InvaidData@4da4253]" started-at="2021-04-27T08:29:39 IST" name="configBS" finished-at="2021-04-27T08:29:40 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="OpenApp()[pri:0, instance:com.Ecommerce.SkillRary.Signup.Scripts.InvaidData@4da4253]" started-at="2021-04-27T08:29:40 IST" name="OpenApp" finished-at="2021-04-27T08:29:50 IST" duration-ms="10041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="invalidLogin()[pri:0, instance:com.Ecommerce.SkillRary.Signup.Scripts.InvaidData@4da4253]" started-at="2021-04-27T08:29:50 IST" name="invalidLogin" finished-at="2021-04-27T08:30:01 IST" duration-ms="10895" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [SkillRary: Online Courses - Learn Anywhere, Learn Any Skill ] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [SkillRary: Online Courses - Learn Anywhere, Learn Any Skill ] but found []
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.Ecommerce.SkillRary.Signup.genericLibrary.WebDriverUtilies.verify(WebDriverUtilies.java:121)
+at com.Ecommerce.SkillRary.Signup.Scripts.InvaidData.invalidLogin(InvaidData.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.Ecommerce.SkillRary.Signup.Scripts.InvaidData@4da4253]" started-at="2021-04-27T08:30:01 IST" name="closeApp" finished-at="2021-04-27T08:30:03 IST" duration-ms="1986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=FAILURE method=InvaidData.invalidLogin()[pri:0, instance:com.Ecommerce.SkillRary.Signup.Scripts.InvaidData@4da4253] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.Ecommerce.SkillRary.Signup.Scripts.InvaidData@4da4253]" started-at="2021-04-27T08:30:03 IST" name="configAS" finished-at="2021-04-27T08:30:04 IST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.Ecommerce.SkillRary.Signup.Scripts.InvaidData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
